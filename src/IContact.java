@@ -1,4 +1,4 @@
-public interface Contact {
+public interface IContact {
     // Thêm một liên hệ mới
     void addContact();
 
