@@ -9,7 +9,7 @@ public interface IContact {
     void searchContact();
 
     // Hiển thị tất cả các liên hệ
-    void displayAllContacts();
+    void displayContact();
 
     // Cập nhật thông tin liên hệ
     void updateContact();

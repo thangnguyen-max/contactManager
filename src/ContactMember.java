@@ -54,13 +54,13 @@ public class ContactMember {
         this.address = address;
     }
 
-    public ContactMember(String groupName, String name, String phone, String email, String gender, String address) {
-        this.GroupName = groupName;
+    public ContactMember(String name, String phone, String email, String gender, String address, String groupName) {
         this.name = name;
         this.phone = phone;
         this.email = email;
         this.gender = gender;
         this.address = address;
+        this.GroupName = groupName;
     }
 
     @Override
